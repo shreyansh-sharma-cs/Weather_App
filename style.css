@@ -149,6 +149,8 @@ background-image: linear-gradient(90deg, #2b5876 , #4e4376 );
     }
     .heading{
         font-size: 14px;
+        width: 90%;
+        text-align: center;
     }
     .heading p{
         font-size: 9px;
@@ -164,6 +166,7 @@ background-image: linear-gradient(90deg, #2b5876 , #4e4376 );
     }
     .heading{
         font-size: 10px;
+        width: 90%;
     }
     .heading p{
         font-size: 6px;
