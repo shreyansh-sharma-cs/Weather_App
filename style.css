@@ -100,3 +100,34 @@ body{
     margin-top: 10px;
     display: none;
 }
+
+@media screen and (max-width: 400px) {
+    
+    .card{
+        width: 95%;
+    }
+    .search button{
+        height: 38px;
+    }
+    .weather h1{
+        font-size: 45px;
+        font-weight: 300;
+    }
+    .weather h2{
+        font-size: 40px;
+        margin-top: -10px;
+        font-weight: 300;
+    }
+    .details{
+        padding: 0;
+    }
+    .col img{
+        width: 28px;
+        margin-right: 10px;
+    }
+    .humidity, .wind{
+        font-size: 18px;
+        font-weight: 300;
+        margin-top: -6px;
+    }
+  }
