@@ -6,14 +6,28 @@
 }
 
 body{
-    background: linear-gradient(82deg, green, white)
+    /* background: linear-gradient(82deg, green, white); */
+    /* background-color: #52ACFF; */
+background-image: linear-gradient(90deg, #2b5876 , #4e4376 );
 }
 
-
+.heading{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 14px;
+    padding-top: 10px;
+    color: white;
+}
+.heading p{
+    margin-top: 10px;
+}
 .card{
     width: 90%;
     max-width: 470px;
-    background:linear-gradient(135deg,rgb(236, 245, 150), rgb(241, 104, 6));
+    /* background:linear-gradient(135deg,red, white); */
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
     color: #fff;
     margin: 100px auto 0;
     border-radius: 20px;
@@ -133,6 +147,12 @@ body{
     .search input{
         font-size: 14px;
     }
+    .heading{
+        font-size: 14px;
+    }
+    .heading p{
+        font-size: 9px;
+    }
   }
 
 
@@ -141,5 +161,11 @@ body{
     .search input{
         padding: 10px 3px;
         font-size: 14px;
+    }
+    .heading{
+        font-size: 10px;
+    }
+    .heading p{
+        font-size: 6px;
     }
   }
