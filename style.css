@@ -101,13 +101,13 @@ body{
     display: none;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 600px) {
     
     .card{
         width: 95%;
     }
     .search button{
-        height: 38px;
+        height: 56px;
     }
     .weather h1{
         font-size: 45px;
@@ -129,5 +129,13 @@ body{
         font-size: 18px;
         font-weight: 300;
         margin-top: -6px;
+    }
+  }
+
+
+  @media screen and (max-width: 385px){
+
+    .search input{
+        padding: 10px 3px;
     }
   }
