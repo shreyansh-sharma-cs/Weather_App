@@ -130,6 +130,9 @@ body{
         font-weight: 300;
         margin-top: -6px;
     }
+    .search input{
+        font-size: 14px;
+    }
   }
 
 
@@ -137,5 +140,6 @@ body{
 
     .search input{
         padding: 10px 3px;
+        font-size: 14px;
     }
   }
